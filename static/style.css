@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+#navbar{
+    padding: 13px 14px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+  
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+  #navbar{
+     background-color: black;
+  }
+   
+
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color: white;
+   text-decoration: none;
+    padding: 13px 30px;
+    
+}
+#introSection div.small{
+    font-size: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+#introSection div.large{
+    font-family: 'Russo One', sans-serif;
+
+}
+
+#navbar li a:hover{
+    color: red;  
+}
+#logo img{
+    height: 20px;
+    filter: invert();
+}
+#introSection{
+    padding-bottom: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 500px;
+    background:  center / cover no-repeat  url("/static/bg.jpg") ;
+    
+}
+#sponsorsSection{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgb(22, 22, 20);
+    height: 300px;
+}
+#footer{
+height: 40px;
+background-color: black;
+}
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0px,14px;
+    height: 15px;
+    
+}
+#subscription {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+    height: 300px;
+    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plateform{
+    padding: 12px;
+    font-family: 'Russo One', sans-serif;
+}
+.card{
+   margin: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    height: 150px;
+    border-radius: 10px;
+    background: transparent;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2);
+}
+
+#video{
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    height: 400px;
+    background: center / cover no-repeat url("/static/pic.jpg");
+    opacity: 100%;
+    font-family:'Dancing Script', cursive;
+  
+
+ 
+
+}
+#video h2{
+    margin-top: -50px;
+}
+
+#navbar{
+    padding: 13px 14px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+  
+#footer ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: left;
+    align-items: center;
+}
+  
+   #footer{
+       background-color: tomato;
+   }
+
+
+#footer li{
+    list-style: none;
+    color: white;
+   text-decoration: none;
+    padding: 13px 30px;
+    padding-right: 50px;
+    
+}
+#achivement{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    background: white ;
+    height: 500px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#achivement img{
+display: inline-block;
+ width: 500px;
+margin: 20px;
+padding: 10px;
+justify-content: left;
+  
+   
+}
+

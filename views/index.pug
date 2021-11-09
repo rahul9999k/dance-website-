@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+      body
+    nav#navbar
+        ul
+           
+            div#logo
+                img(src="/static/logo.png")
+                |HBDC
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/classinfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+            li #[a(href="../static/overflow.html") Login/signUp]
+          
+        
+        
+          
+            |
+    section#introSection
+        div.large Welcome to Heart beated dance crew 
+        div.small Eat Sleep Dance Repeat
+    
+    section#video 
+            h2 Our dance video
+            
+    
+    section#subscription 
+        h2 Subscription
+        div.plateform  ~ A best plateform to learn dance
+              
+        button(class='card') Weekly Membership ~       
+                            | 79 /-
+        button(class='card') Monthly Membership ~        
+                            | 199 /-
+        button(class='card') Yearly Membership ~        
+                            | 999 /-
+    section#achivement 
+            h2 Our Achivements
+            div.pic 
+            img(src="../static/achivement.jpg", alt="")
+            img(src="../static/achi.jpg", alt="")
+        
+    section#sponsorsSection
+      |  h2 Our Sponsors
+    footer#footer 
+       ul 
+            
+            li  Services
+            li  FAQs
+            li  Contact Us
+            li Topics
+            li  Version 1.12.3

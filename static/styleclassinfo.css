@@ -1,0 +1,29 @@
+.sunday{
+    margin: 20px;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.Closed{
+    margin: 20px;
+    padding: 20px;
+    font-family: fantasy;
+    font-size: 200px;
+    text-align: center;
+    color: red;
+}
+.notice{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.word{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 10px;
+    padding-top: 40px;
+}

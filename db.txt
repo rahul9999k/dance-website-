@@ -1,0 +1,1 @@
+db.items.insertMany([{name: "samsung90s", price:3800, rating: 3.5, qty: 789, sold:89},{name: "moto9s", price:22000, rating: 4.5, qty: 79, sold:9}
